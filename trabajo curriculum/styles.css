@@ -7,7 +7,7 @@ body {
 
 .Cara {
     text-align: center;
-    background-color: #0d0c0c;
+    background-color: gray;
     padding: 20px;
 }
 
@@ -26,12 +26,12 @@ body {
 }
 
 .izquierda-column {
-    flex: 1; 
+    flex: 5; 
     padding: 20px;
 }
 
 .derecha-column {
-    flex: 2; 
+    flex: 6; 
     padding: 20px;
     background-color: #f0f0f0;
 }
