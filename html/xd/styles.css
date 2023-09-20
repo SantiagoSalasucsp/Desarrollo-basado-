@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.Cara {
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+.contenido {
+    display: flex; /* Utilizamos flexbox para crear columnas */
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+}
+
+.Cara img {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.izquierda-column {
+    flex: 1; 
+    padding: 20px;
+}
+
+.derecha-column {
+    flex: 2; 
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}

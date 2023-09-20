@@ -1,50 +1,58 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
-.Cara {
+h1{
+    color: white;
     text-align: center;
-    background-color: gray;
-    padding: 20px;
+    background: rgb(89, 88, 89);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.contenido {
-    display: flex; /* Utilizamos flexbox para crear columnas */
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+b {
+    font-size: large;
 }
 
-.Cara img {
-    max-width: 50%;
-    border-radius: 50%;
+i {
+    font-size: medium;
 }
 
-.izquierda-column {
-    flex: 1; 
-    padding: 20px;
+h3 {
+    color: lightgray;
+    text-align: center;
+    background: rgb(89, 88, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
 }
 
-.derecha-column {
-    flex: 2; 
-    padding: 20px;
-    background-color: #f0f0f0;
+h4 {
+    font-size:larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 5%;
 }
 
-h1, h2 {
-    color: #333;
+p {
+    text-align: justify;
+    text-indent: 2%;
+    font-family: sans-serif;
 }
 
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
+b{
+    font-family: sans-serif;
 }
 
 li {
-    margin: 5px 0;
+    font-family: sans-serif;
+}
+
+#parent {
+display: flex;
+}
+#izquierda {
+width: 400px;
+background: rgb(242, 243, 243);
+/* Just so it's visible */
+}
+#derecha {
+flex: 1;
+/* Grow to rest of container */
+background: white;
+/* Just so it's visible */
 }
