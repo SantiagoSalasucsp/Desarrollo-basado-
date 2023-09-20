@@ -48,11 +48,11 @@ display: flex;
 #izquierda {
 width: 400px;
 background: rgb(242, 243, 243);
-/* Just so it's visible */
+
 }
 #derecha {
 flex: 1;
-/* Grow to rest of container */
+
 background: white;
-/* Just so it's visible */
+
 }
