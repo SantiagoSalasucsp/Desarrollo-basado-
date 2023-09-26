@@ -12,25 +12,30 @@ body {
 
 
 .container {
-    display: grid; /* Aquí estamos creando nuestra cuadrícula */
-    grid-template-rows: 100px auto 100px; /* Tres filas: cabecera, contenido, pie */
-    grid-template-columns: 1fr 1fr; /* Esto significa una columna */
-    height: 100vh; /* Esto hace que la cuadrícula ocupe toda la pantalla */
+    display: grid; 
+    grid-template-rows: 100px auto 100px; 
+     
+    height: 100vh; 
     background-color: #e7dddd;
     gap: 10px; 
 }
 
+.container1 {
+    display: grid;
+    grid-template-columns: 2;
+    background-color: #319cdf; 
+}
 
 .cabecera {
     grid-row: 1; /* Ocupa la primera fila (arriba) */
     grid-column: 1;
-    background-color: #d7e1e7; /* Color de fondo para la cabecera */
+    background-color: #d7e1e7; /* Color de fondo para la cabecera */ 
     text-align: center;
     padding: 20px;
 }
 
 .contenido {
-    grid-row: 2; /* Ocupa la segunda fila (en medio) */
+    grid-row: 1; /* Ocupa la segunda fila (en medio) */
     grid-column: 1;
     background-color: #ecf0f1; /* Color de fondo para el contenido */
     padding: 20px;
@@ -47,9 +52,17 @@ body {
 
 
 .columna {
-    grid-row: 2; /* Ocupa la segunda fila (en medio) */
+    grid-row: 1; /* Ocupa la segunda fila (en medio) */
     grid-column: 2;
     border: 1px solid #000;
     padding: 20px;
     text-align: center;
 }
+
+
+
+
+
+
+
+/* conjunto de liberias(plataforma)(marco de trabajo, facilidad de trabajo en el desarrolo web(acelerar el proceso)) es como una herramienta que te dan para facilitar el tabajo*/
