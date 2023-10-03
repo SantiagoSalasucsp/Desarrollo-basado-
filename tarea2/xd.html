@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>formulario</title>
     <link rel="stylesheet" type="text/css" href="arreglos.css">
 </head>
 <body>
@@ -9,7 +10,17 @@
         <div class="cabecera">cabecera</div>
 
         <div class="container1">
-            <div class="cotenido">Columna 1</div>
+            <div class="cotenido">Columna 1
+
+                <form method="POST" action="procesar.php">
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre">
+                    <input type="submit" value="Enviar">
+                </form>
+                
+
+                
+
+            </div>
             <div class="columna">Columna 2</div>
         </div>
 
@@ -18,3 +29,4 @@
     </div>
 </body>
 </html>
+
