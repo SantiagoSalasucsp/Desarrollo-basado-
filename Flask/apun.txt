@@ -1,0 +1,5 @@
+Es un micro framwork (conjunto de componentes que se pueden personalizar, marca una estructura de trabajo)
+flask es mas facil pero jango es para proyectos a grande escala y ofrece mas funciónes incorporadas y esta escrito en python y no esta sujeto a ninguna plataforma
+decorador es una función
+
+pip stol flak
