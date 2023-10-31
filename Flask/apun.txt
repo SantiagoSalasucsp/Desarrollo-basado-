@@ -2,4 +2,11 @@ Es un micro framwork (conjunto de componentes que se pueden personalizar, marca 
 flask es mas facil pero jango es para proyectos a grande escala y ofrece mas funciónes incorporadas y esta escrito en python y no esta sujeto a ninguna plataforma
 decorador es una función
 
+riceler; revendedor y estos van a ser hosting(cuando les brindas a una empresa un servicio justo de hostiar, alogamiento)
+
 pip stol flak
+
+heroku_ es una plataforma usada por un servicio (asaservis)
+entorno enla nuve que va a tener lo que se va a necesittar 
+
+----
