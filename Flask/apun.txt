@@ -6,7 +6,7 @@ riceler; revendedor y estos van a ser hosting(cuando les brindas a una empresa u
 
 pip stol flak
 
-heroku_ es una plataforma usada por un servicio (asaservis)
+heroku_ es una plataforma usada por un servicio (asaservis), solo se interesa en el desarrollo
 entorno enla nuve que va a tener lo que se va a necesittar 
 
 ----
