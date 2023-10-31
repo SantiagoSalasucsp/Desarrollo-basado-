@@ -7,13 +7,13 @@ app = Flask(__name__)
 def home():
     return 'Hello World'
 
-@app.route('/about')
+@app.route("/about")
 def bout():
-    return "About page​"
+    return 'About page​'
 
-@app.route('/otra​')
+@app.route("/otra​")
 def otra():
-    return "otra​​"
+    return 'otra​​'
 
 if __name__== '__main__':
     app.run(debug=True)
