@@ -7,7 +7,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: rgb(208, 208, 218);
+    background-color: rgb(86, 52, 2);
 }
 
 
@@ -29,7 +29,7 @@ body {
 .cabecera {
     grid-row: 1; /* Ocupa la primera fila (arriba) */
     grid-column: 1;
-    background-color: #d7e1e7; /* Color de fondo para la cabecera */ 
+    background-color: #e1b906; /* Color de fondo para la cabecera */ 
     text-align: center;
     padding: 20px;
 }
@@ -44,8 +44,8 @@ body {
 .pie {
     grid-row: 3; /* Ocupa la tercera fila (abajo) */
     grid-column: 1;
-    background-color: #34495e; /* Color de fondo para el pie de página */
-    color: #06c14e; /* Color de texto para el pie de página */
+    background-color: #5a0303; /* Color de fondo para el pie de página */
+    color: #000803; /* Color de texto para el pie de página */
     text-align: center;
     padding: 10px;
 }

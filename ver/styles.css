@@ -1,0 +1,36 @@
+.todo {
+    display: grid; 
+    grid-template-rows: 100px auto 100px; 
+     
+    height: 100vh; 
+    background-color: #e7dddd;
+    gap: 10px; 
+}
+
+.cabecera {
+    grid-row: 1; 
+    grid-column: 1;
+    background-color: #413602; 
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contenido {
+    display: grid;
+    grid-template-columns: 2;
+    background-color: #a25727; 
+}
+
+
+
+
+
+.pie {
+    grid-row: 3; 
+    grid-column: 1;
+    background-color: #5a0303; 
+    color: #000803; 
+    text-align: center;
+    padding: 10px;
+}
