@@ -94,7 +94,7 @@
                 <b>Licenciatura Profesional</b>
                 <p><i>Universidad de la Frontera, México DF.</i> | 2011-2012</p>
 
-                <!-- Datos del formulario reemplazarán esto -->
+                
                 <?php
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $experiencia = $_POST["experiencia"];

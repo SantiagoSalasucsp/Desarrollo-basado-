@@ -1,5 +1,5 @@
 p {
-    background-color: pink;
+    background-color: rgb(224, 38, 69);
 }
 
 
@@ -27,32 +27,35 @@ body {
 }
 
 .cabecera {
-    grid-row: 1; /* Ocupa la primera fila (arriba) */
+    grid-row: 1; 
     grid-column: 1;
     background-color: #e1b906; /* Color de fondo para la cabecera */ 
+    background-color: #d7e1e7;  
     text-align: center;
     padding: 20px;
 }
 
 .contenido {
-    grid-row: 1; /* Ocupa la segunda fila (en medio) */
+    grid-row: 1; 
     grid-column: 1;
-    background-color: #ecf0f1; /* Color de fondo para el contenido */
+    background-color: #ecf0f1; 
     padding: 20px;
 }
 
 .pie {
-    grid-row: 3; /* Ocupa la tercera fila (abajo) */
+    grid-row: 3; 
     grid-column: 1;
     background-color: #5a0303; /* Color de fondo para el pie de página */
     color: #000803; /* Color de texto para el pie de página */
+    background-color: #34495e; 
+    color: #06c14e; 
     text-align: center;
     padding: 10px;
 }
 
 
 .columna {
-    grid-row: 1; /* Ocupa la segunda fila (en medio) */
+    grid-row: 1; 
     grid-column: 2;
     border: 1px solid #000;
     padding: 20px;

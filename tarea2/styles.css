@@ -1,4 +1,4 @@
-/* Resetear márgenes y rellenos */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #595859;
-    color: #050303; /* Color de texto principal */
+    color: #050303; 
 }
 
 .container {
