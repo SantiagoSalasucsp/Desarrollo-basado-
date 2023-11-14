@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>to-do-list</title>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelector('#new-task').onsubmit = () => {
+        const cb = document.createElement("INPUT");
+        cb.setAttribute("type", "checkbox");
+
+        const deleteBtn = document.createElement("BUTTON"); 
+        deleteBtn.innerHTML = "x";
+        deleteBtn.style.width = '20px'; 
+        deleteBtn.style.height = '20px'; 
+        deleteBtn.style.marginLeft = '10px'; 
+        const taskSpan = document.createElement('span'); // contenedor span para tarea
+        taskSpan.textContent = document.querySelector('#task').value;
+
+        const li = document.createElement('li');
+        li.appendChild(cb);
+        li.appendChild(taskSpan);
+        li.appendChild(deleteBtn); 
+
+        // detectar seleccion de tarea
+        cb.addEventListener('change', () => {
+            if (cb.checked) {
+                taskSpan.style.textDecoration = 'line-through'; // Tachar tarea
+            } else {
+                taskSpan.style.textDecoration = 'none'; // Quitar tachado
+            }
+        });
+
+        // Eliminar tarea
+        deleteBtn.addEventListener('click', () => {
+            li.remove();
+        });
+
+        document.querySelector('#tasks').append(li);
+
+        document.querySelector('#task').value = '';
+
+        return false;
+        };
+
+        document.querySelector('#complete-all').onclick = () => {
+            const checkboxes = document.querySelectorAll('#tasks input[type="checkbox"]');
+            checkboxes.forEach(cb => {
+                cb.checked = true;
+                cb.dispatchEvent(new Event('change')); // Desencadenar el evento de cambio para tachar el texto
+            });
+        };
+    });
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="cabecera">
+            <h1>Desarrollo basado en plataformas</h1>
+        </div>
+        <div class="otro"> 
+            <h1>Tareas</h1>
+            <form id="new-task">
+                <input id="task" autocomplete="off" autofocus placeholder="Nueva tarea" type="text">
+                <input type="submit" value="Añadir">
+            </form>
+            <div class="but">
+                <button 
+                    id="complete-all">Completar todas
+                </button>
+            </div>
+            <ol id="tasks">
+            </ol>
+        </div>
+    </div>
+  </body>
+</html>

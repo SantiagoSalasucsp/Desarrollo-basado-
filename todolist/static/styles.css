@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(247, 249, 248);
+}
+
+.container {
+    
+    display: grid; 
+    grid-template-rows: 100px 100px 100px; 
+     
+    height: 100vh; 
+    background-color: #e7dddd;
+    gap: 10px; 
+}
+
+.cabecera {
+    grid-row: 1; 
+    grid-column: 1;
+    background-color: #e1b906; /* Color de fondo para la cabecera */ 
+    /*background-color: #d7e1e7;  */
+    /*text-align: center;*/
+    padding: 20px;
+}
+
+
+ 
+.otro { 
+    display: grid;
+    background-color: rgb(242, 200, 200);
+    border-radius: 5%;
+    /*text-align: center;*/
+}
+
+.otro button {
+    display: grid;
+    grid-template-rows: 100px
+
+}
+
+.but button {
+    font-size: 8px; /* Ajusta el tamaño del texto del botón */
+    padding: 2px 5px; /* Ajusta el relleno del botón (arriba/abajo, izquierda/derecha) */
+}
+
+
+
