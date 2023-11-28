@@ -14,7 +14,7 @@ namespace App3
             string telefono,
             string email,
             string pais,
-            string nivelDeIngles,
+            string nivel,
             List<string> lenguajesProgramacion,
             string aptitudes,
             List<string> habilidades,
