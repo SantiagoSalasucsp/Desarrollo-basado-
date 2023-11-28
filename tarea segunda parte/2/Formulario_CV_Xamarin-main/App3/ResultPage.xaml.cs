@@ -23,7 +23,7 @@ namespace App3
         {
             InitializeComponent();
 
-            // Crea y agrega un Label para cada dato del formulario
+            
             resultStackLayout.Children.Add(new Label { Text = "Nombres: " + nombres });
             resultStackLayout.Children.Add(new Label { Text = "Apellidos: " + apellidos });
             resultStackLayout.Children.Add(new Label { Text = "Fecha de nacimiento: " + fechaDeNacimiento.ToString("dd/MM/yyyy") });
@@ -33,13 +33,13 @@ namespace App3
             resultStackLayout.Children.Add(new Label { Text = "País: " + pais });
             resultStackLayout.Children.Add(new Label { Text = "Nivel de Inglés: " + nivelDeIngles });
 
-            // Concatena los lenguajes de programación en una cadena
+            
             string lenguajes = string.Join(", ", lenguajesProgramacion);
             resultStackLayout.Children.Add(new Label { Text = "Lenguajes de programación: " + lenguajes });
 
             resultStackLayout.Children.Add(new Label { Text = "Aptitudes: " + aptitudes });
 
-            // Concatena las habilidades en una cadena
+            
             string habilidadesConcatenadas = string.Join(", ", habilidades);
             resultStackLayout.Children.Add(new Label { Text = "Habilidades: " + habilidadesConcatenadas });
 
