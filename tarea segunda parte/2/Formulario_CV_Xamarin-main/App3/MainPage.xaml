@@ -8,30 +8,48 @@
         <Label Text="Nombres" />
         <Entry x:Name="nombresEntry" />
 
+        
+        
         <Label Text="Apellidos" />
         <Entry x:Name="apellidosEntry" />
 
         <Label Text="Fecha de nacimiento" />
         <DatePicker x:Name="fechaNacimientoPicker" />
 
+        
+        
+        
         <Label Text="Ocupación" />
         <Entry x:Name="ocupacionEntry" />
 
+        
+        
+        
         <Label Text="Teléfono" />
         <Entry x:Name="telefonoEntry" />
+        
+        
 
         <Label Text="Email" />
         <Entry x:Name="emailEntry" />
+        
+        
 
         <Label Text="País" />
             <Picker x:Name="paisPicker"/>
-
+        
+        
+        
         <Label Text="Nivel de inglés" />
+        
+        
         <RadioButton x:Name="inglesBasicoRadio" GroupName="NivelIngles" Content="Básico" FontSize="Small"/>
             <RadioButton x:Name="inglesIntermedioRadio" GroupName="NivelIngles" Content="Intermedio" FontSize="Small" />
             <RadioButton x:Name="inglesAvanzadoRadio" GroupName="NivelIngles" Content="Avanzado" FontSize="Small" />
             <RadioButton x:Name="inglesFluidoRadio" GroupName="NivelIngles" Content="Fluido" FontSize="Small" />
 
+        
+        
         <Label Text="Lenguajes de programación" />
         <StackLayout Orientation="Horizontal">
             <CheckBox x:Name="pythonCheckbox"/>
