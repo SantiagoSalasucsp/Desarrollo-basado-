@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage">
+
+    <ScrollView>
+    <StackLayout Padding="20">
+        <Label Text="Nombres" />
+        <Entry x:Name="nombresEntry" />
+
+        <Label Text="Apellidos" />
+        <Entry x:Name="apellidosEntry" />
+
+        <Label Text="Fecha de nacimiento" />
+        <DatePicker x:Name="fechaNacimientoPicker" />
+
+        <Label Text="Ocupación" />
+        <Entry x:Name="ocupacionEntry" />
+
+        <Label Text="Teléfono" />
+        <Entry x:Name="telefonoEntry" />
+
+        <Label Text="Email" />
+        <Entry x:Name="emailEntry" />
+
+        <Label Text="País" />
+            <Picker x:Name="paisPicker"/>
+
+        <Label Text="Nivel de inglés" />
+        <RadioButton x:Name="inglesBasicoRadio" GroupName="NivelIngles" Content="Básico" FontSize="Small"/>
+            <RadioButton x:Name="inglesIntermedioRadio" GroupName="NivelIngles" Content="Intermedio" FontSize="Small" />
+            <RadioButton x:Name="inglesAvanzadoRadio" GroupName="NivelIngles" Content="Avanzado" FontSize="Small" />
+            <RadioButton x:Name="inglesFluidoRadio" GroupName="NivelIngles" Content="Fluido" FontSize="Small" />
+
+        <Label Text="Lenguajes de programación" />
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="pythonCheckbox"/>
+            <Label Text="Python"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="cPlusPlusCheckbox"/>
+            <Label Text="C++"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="javaCheckbox"/>
+            <Label Text="Java"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="rubyCheckbox"/>
+            <Label Text="Ruby"/>
+        </StackLayout>
+
+        <Label Text="Aptitudes" />
+        <Entry x:Name="aptitudesEntry" />
+
+        <Label Text="Habilidades" />
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="htmlCheckbox"/>
+            <Label Text="Dominio de HTML"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="backendCheckbox"/>
+            <Label Text="Desarrollo de aplicaciones Backend"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="testingCheckbox"/>
+            <Label Text="Habilidades para testing y debugging"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="responsivoCheckbox"/>
+            <Label Text="Diseño responsivo"/>
+        </StackLayout>
+
+        <Label Text="Perfil" />
+        <Editor x:Name="perfilEditor" />
+
+        <Button Text="Enviar" Clicked="OnEnviarClicked" />
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
